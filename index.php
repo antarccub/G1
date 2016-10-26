@@ -4,7 +4,7 @@
 require ('saludoPracticas.php');
 
     $mensaje = 'Esto es un mensaje';
-    $saludo = new saludoPracticas($mensaje);
+    $saludo = new saludoPracticas("");
 
     $saludo->show();
 
