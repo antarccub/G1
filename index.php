@@ -3,9 +3,10 @@
 
 require ('saludoPracticas.php');
 
-    $mensaje = 'Esto es un mensaje';
-    $saludo = new saludoPracticas();
+    $mensaje = 'Enarenaaaaau  renaa renaaaaauu';
+    $saludo = new saludoPracticas($mensaje);
 
+    $saludo->from();
     $saludo->show();
 
 

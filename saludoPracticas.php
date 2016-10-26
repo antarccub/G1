@@ -5,6 +5,7 @@
 class saludoPracticas{
 
     protected $mensaje;
+    protected $from;
 
 
 
@@ -20,7 +21,14 @@ class saludoPracticas{
 
     public function show(){
 
-        echo $this->mensaje;
+        $saludo = $this->from." ha enviado el siguiente mensaje: <strong>".$this->mensaje."</strong>";
+        echo $saludo;
+    }
+
+    public function from($from = "Un hombre malo violento"){
+
+        $this->from = $from;
+
     }
 
 }
