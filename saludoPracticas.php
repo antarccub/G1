@@ -8,11 +8,11 @@ class saludoPracticas{
 
 
 
-    public function __construct($mensaje)
+    public function __construct($mensaje = "No se ha recibido ningun mensaje para saludar")
     {
 
 
-        $this->mensaje = $mensaje == "" ? "No se ha recibido ningun mensaje para saludar" : $mensaje;
+        $this->mensaje = $mensaje;
     }
 
 
